@@ -1,18 +1,42 @@
 {
-  "installed_packages":
-  [
-    "A File Icon",
-    "AdvancedNewFile",
-    "All Autocomplete",
-    "Babel",
-    "Emmet",
-    "ERB Snippets",
-    "Git",
-    "Latest Migration",
-    "MagicPython",
-    "Package Control",
-    "SCSS",
-    "SublimeLinter",
-    "SublimeLinter-rubocop"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Babel",
+		"Babel Snippets",
+		"Color Highlight",
+		"Color Highlighter",
+		"Emmet",
+		"Emmet Css Snippets",
+		"ERB Snippets",
+		"ESLint",
+		"ESLintAutoFix",
+		"Git",
+		"Highlight",
+		"JsPrettier",
+		"JSX",
+		"Latest Migration",
+		"MagicPython",
+		"npm-install",
+		"Package Control",
+		"Python 3",
+		"Python Checker",
+		"React ES6 Snippets",
+		"ReactJS",
+		"ReactJS Snippets",
+		"SCSS",
+		"Sublime ES7 React Redux ReactNative JS snippets",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-rubocop",
+		"TypeScript",
+		"TypeScript Syntax"
+	]
 }
