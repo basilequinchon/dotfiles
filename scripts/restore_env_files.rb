@@ -3,7 +3,7 @@
 require 'fileutils'
 require 'pry-byebug'
 RECOVER_FROM = File.expand_path('~/notes/TT/config/env_files')
-Dir['./*/'].each do |path|
+Dir['./../code/*/.env'].each do |path|
   saved_env_path = File.join(RECOVER_FROM, path.gsub(%r{/^.\//}, '')
                                                .gsub(%r{/\/$/}, '') + '.env')
                        .to_s
