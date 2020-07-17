@@ -14,10 +14,6 @@ export HOMEBREW_NO_ANALYTICS=1
 source "${ZSH}/oh-my-zsh.sh"
 unalias rm # No interactive rm by default (brought by plugins/common-aliases)
 
-# Load rbenv if installed (To manage your Ruby versions)
-export PATH="${HOME}/.rbenv/bin:${PATH}"
-type -a rbenv > /dev/null && eval "$(rbenv init -)"
-
 # Load nvm if installed (To manage your Node versions)
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
@@ -46,3 +42,9 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+alias ttdata="./script/starter.sh data"
+alias ttweb="./script/starter.sh web"
