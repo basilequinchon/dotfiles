@@ -48,3 +48,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 alias ttdata="./script/starter.sh data"
 alias ttweb="./script/starter.sh web"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
