@@ -47,5 +47,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = basile.quinchon@gmail.com
+	email = basile.quinchon@iadvize.com
 	name = Basile Quinchon
